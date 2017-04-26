@@ -15,6 +15,20 @@
 		C5CBB4C71EB06F3B0086984E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB4C51EB06F3B0086984E /* LaunchScreen.storyboard */; };
 		C5CBB4D21EB06F3C0086984E /* DragTagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4D11EB06F3C0086984E /* DragTagDemoTests.m */; };
 		C5CBB4DD1EB06F3C0086984E /* DragTagDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4DC1EB06F3C0086984E /* DragTagDemoUITests.m */; };
+		C5CBB4FA1EB06F4C0086984E /* BGImageEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4EC1EB06F4C0086984E /* BGImageEditorCell.m */; };
+		C5CBB4FB1EB06F4C0086984E /* BGImageEditorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4EE1EB06F4C0086984E /* BGImageEditorItem.m */; };
+		C5CBB4FC1EB06F4C0086984E /* BGImageTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4F01EB06F4C0086984E /* BGImageTagView.m */; };
+		C5CBB4FD1EB06F4C0086984E /* BGImgeEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4F21EB06F4C0086984E /* BGImgeEditorViewController.m */; };
+		C5CBB4FE1EB06F4C0086984E /* BGTagInfoDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4F41EB06F4C0086984E /* BGTagInfoDisplayCell.m */; };
+		C5CBB4FF1EB06F4C0086984E /* BGTagInfoDisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB4F51EB06F4C0086984E /* BGTagInfoDisplayCell.xib */; };
+		C5CBB5001EB06F4C0086984E /* BGTagInfoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4F71EB06F4C0086984E /* BGTagInfoEditView.m */; };
+		C5CBB5011EB06F4C0086984E /* UIImage+SizeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB4F91EB06F4C0086984E /* UIImage+SizeScale.m */; };
+		C5CBB5041EB06FAF0086984E /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB5031EB06FAF0086984E /* UIView+Addition.m */; };
+		C5CBB50A1EB070D50086984E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB5051EB070D50086984E /* 5.jpg */; };
+		C5CBB50B1EB070D50086984E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB5061EB070D50086984E /* 4.jpg */; };
+		C5CBB50C1EB070D50086984E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB5071EB070D50086984E /* 2.jpg */; };
+		C5CBB50D1EB070D50086984E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB5081EB070D50086984E /* 3.jpg */; };
+		C5CBB50E1EB070D50086984E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CBB5091EB070D50086984E /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,28 @@
 		C5CBB4D81EB06F3C0086984E /* DragTagDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragTagDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CBB4DC1EB06F3C0086984E /* DragTagDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragTagDemoUITests.m; sourceTree = "<group>"; };
 		C5CBB4DE1EB06F3C0086984E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CBB4EB1EB06F4C0086984E /* BGImageEditorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGImageEditorCell.h; sourceTree = "<group>"; };
+		C5CBB4EC1EB06F4C0086984E /* BGImageEditorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGImageEditorCell.m; sourceTree = "<group>"; };
+		C5CBB4ED1EB06F4C0086984E /* BGImageEditorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGImageEditorItem.h; sourceTree = "<group>"; };
+		C5CBB4EE1EB06F4C0086984E /* BGImageEditorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGImageEditorItem.m; sourceTree = "<group>"; };
+		C5CBB4EF1EB06F4C0086984E /* BGImageTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGImageTagView.h; sourceTree = "<group>"; };
+		C5CBB4F01EB06F4C0086984E /* BGImageTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGImageTagView.m; sourceTree = "<group>"; };
+		C5CBB4F11EB06F4C0086984E /* BGImgeEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGImgeEditorViewController.h; sourceTree = "<group>"; };
+		C5CBB4F21EB06F4C0086984E /* BGImgeEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGImgeEditorViewController.m; sourceTree = "<group>"; };
+		C5CBB4F31EB06F4C0086984E /* BGTagInfoDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTagInfoDisplayCell.h; sourceTree = "<group>"; };
+		C5CBB4F41EB06F4C0086984E /* BGTagInfoDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTagInfoDisplayCell.m; sourceTree = "<group>"; };
+		C5CBB4F51EB06F4C0086984E /* BGTagInfoDisplayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BGTagInfoDisplayCell.xib; sourceTree = "<group>"; };
+		C5CBB4F61EB06F4C0086984E /* BGTagInfoEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTagInfoEditView.h; sourceTree = "<group>"; };
+		C5CBB4F71EB06F4C0086984E /* BGTagInfoEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTagInfoEditView.m; sourceTree = "<group>"; };
+		C5CBB4F81EB06F4C0086984E /* UIImage+SizeScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SizeScale.h"; sourceTree = "<group>"; };
+		C5CBB4F91EB06F4C0086984E /* UIImage+SizeScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SizeScale.m"; sourceTree = "<group>"; };
+		C5CBB5021EB06FAF0086984E /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		C5CBB5031EB06FAF0086984E /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		C5CBB5051EB070D50086984E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C5CBB5061EB070D50086984E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C5CBB5071EB070D50086984E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C5CBB5081EB070D50086984E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C5CBB5091EB070D50086984E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +137,18 @@
 		C5CBB4B61EB06F3B0086984E /* DragTagDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C5CBB4EA1EB06F4C0086984E /* ImageEditor */,
 				C5CBB4BA1EB06F3B0086984E /* AppDelegate.h */,
 				C5CBB4BB1EB06F3B0086984E /* AppDelegate.m */,
 				C5CBB4BD1EB06F3B0086984E /* ViewController.h */,
 				C5CBB4BE1EB06F3B0086984E /* ViewController.m */,
+				C5CBB5021EB06FAF0086984E /* UIView+Addition.h */,
+				C5CBB5031EB06FAF0086984E /* UIView+Addition.m */,
+				C5CBB5051EB070D50086984E /* 5.jpg */,
+				C5CBB5061EB070D50086984E /* 4.jpg */,
+				C5CBB5071EB070D50086984E /* 2.jpg */,
+				C5CBB5081EB070D50086984E /* 3.jpg */,
+				C5CBB5091EB070D50086984E /* 1.jpg */,
 				C5CBB4C01EB06F3B0086984E /* Main.storyboard */,
 				C5CBB4C31EB06F3B0086984E /* Assets.xcassets */,
 				C5CBB4C51EB06F3B0086984E /* LaunchScreen.storyboard */,
@@ -138,6 +182,28 @@
 				C5CBB4DE1EB06F3C0086984E /* Info.plist */,
 			);
 			path = DragTagDemoUITests;
+			sourceTree = "<group>";
+		};
+		C5CBB4EA1EB06F4C0086984E /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C5CBB4EB1EB06F4C0086984E /* BGImageEditorCell.h */,
+				C5CBB4EC1EB06F4C0086984E /* BGImageEditorCell.m */,
+				C5CBB4ED1EB06F4C0086984E /* BGImageEditorItem.h */,
+				C5CBB4EE1EB06F4C0086984E /* BGImageEditorItem.m */,
+				C5CBB4EF1EB06F4C0086984E /* BGImageTagView.h */,
+				C5CBB4F01EB06F4C0086984E /* BGImageTagView.m */,
+				C5CBB4F11EB06F4C0086984E /* BGImgeEditorViewController.h */,
+				C5CBB4F21EB06F4C0086984E /* BGImgeEditorViewController.m */,
+				C5CBB4F31EB06F4C0086984E /* BGTagInfoDisplayCell.h */,
+				C5CBB4F41EB06F4C0086984E /* BGTagInfoDisplayCell.m */,
+				C5CBB4F51EB06F4C0086984E /* BGTagInfoDisplayCell.xib */,
+				C5CBB4F61EB06F4C0086984E /* BGTagInfoEditView.h */,
+				C5CBB4F71EB06F4C0086984E /* BGTagInfoEditView.m */,
+				C5CBB4F81EB06F4C0086984E /* UIImage+SizeScale.h */,
+				C5CBB4F91EB06F4C0086984E /* UIImage+SizeScale.m */,
+			);
+			path = ImageEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +315,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CBB50B1EB070D50086984E /* 4.jpg in Resources */,
+				C5CBB4FF1EB06F4C0086984E /* BGTagInfoDisplayCell.xib in Resources */,
+				C5CBB50C1EB070D50086984E /* 2.jpg in Resources */,
+				C5CBB50A1EB070D50086984E /* 5.jpg in Resources */,
 				C5CBB4C71EB06F3B0086984E /* LaunchScreen.storyboard in Resources */,
 				C5CBB4C41EB06F3B0086984E /* Assets.xcassets in Resources */,
+				C5CBB50E1EB070D50086984E /* 1.jpg in Resources */,
 				C5CBB4C21EB06F3B0086984E /* Main.storyboard in Resources */,
+				C5CBB50D1EB070D50086984E /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CBB5041EB06FAF0086984E /* UIView+Addition.m in Sources */,
+				C5CBB4FE1EB06F4C0086984E /* BGTagInfoDisplayCell.m in Sources */,
+				C5CBB4FB1EB06F4C0086984E /* BGImageEditorItem.m in Sources */,
+				C5CBB5001EB06F4C0086984E /* BGTagInfoEditView.m in Sources */,
+				C5CBB5011EB06F4C0086984E /* UIImage+SizeScale.m in Sources */,
 				C5CBB4BF1EB06F3B0086984E /* ViewController.m in Sources */,
+				C5CBB4FA1EB06F4C0086984E /* BGImageEditorCell.m in Sources */,
 				C5CBB4BC1EB06F3B0086984E /* AppDelegate.m in Sources */,
+				C5CBB4FC1EB06F4C0086984E /* BGImageTagView.m in Sources */,
 				C5CBB4B91EB06F3B0086984E /* main.m in Sources */,
+				C5CBB4FD1EB06F4C0086984E /* BGImgeEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
